@@ -32,4 +32,4 @@ torchrun --nnodes=1 --nproc_per_node=N sample_ddp_sp_step.py --num-fid-samples 5
 ```
 
 # Acknowledgments
-This codebase borrows from [DiT](https://github.com/facebookresearch/DiT) and [PixArt-alpha](https://github.com/PixArt-alpha/PixArt-alpha). Thanks to the authors for their wonderful work and codebase!
+This codebase borrows from [DiT](https://github.com/facebookresearch/DiT), [PixArt-alpha](https://github.com/PixArt-alpha/PixArt-alpha) and [ADM](https://github.com/openai/guided-diffusion). Thanks to the authors for their wonderful work and codebase!
