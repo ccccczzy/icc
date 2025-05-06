@@ -14,15 +14,15 @@ conda env create -f environment.yml
 conda activate DiT
 ```
 # Usage
-To generate calibration parameters with SVD at the specified rank:
+To generate calibration parameters with SVD:
 ```bash
 python gen_decomp.py --use-wtv False --rank 128 
 ```
-To generate calibration parameters with CA-SVD at the specified rank:
+To generate calibration parameters with CA-SVD:
 ```bash
 python gen_decomp.py --use-wtv True --wtv-src "mag" --num-steps 50 --num-samples 256 --rank 128 --data-path /path/to/imagenet/train
 ```
-To generate calibration parameters with CD-SVD at the specified rank:
+To generate calibration parameters with CD-SVD:
 ```bash
 python gen_decomp.py --use-wtv True --wtv-src "delta_mag" --num-steps 50 --num-samples 256 --rank 128 --data-path /path/to/imagenet/train
 ```
