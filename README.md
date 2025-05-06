@@ -1,5 +1,5 @@
 # Accelerating Diffusion Transformer via Increment-Calibrated Caching with Channel-Aware Singular Value Decomposition
-
+This is the official implementation of CVPR2025 paper Accelerating Diffusion Transformer via Increment-Calibrated Caching with Channel-Aware Singular Value Decomposition.
 ## Quick Start
 Take increment-calibrated caching for DiT as an example.
 # Setup
