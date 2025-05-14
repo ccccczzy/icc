@@ -31,5 +31,18 @@ To sample images with the generated calibration parameters:
 torchrun --nnodes=1 --nproc_per_node=N sample_ddp_sp_step.py --num-fid-samples 50_000 --results-dir /path/to/calibration/parameters
 ```
 
+# Bibtex
+```bibtex
+@misc{chen2025icc,
+      title={Accelerating Diffusion Transformer via Increment-Calibrated Caching with Channel-Aware Singular Value Decomposition}, 
+      author={Zhiyuan Chen and Keyi Li and Yifan Jia and Le Ye and Yufei Ma},
+      year={2025},
+      eprint={2505.05829},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.05829}, 
+}
+```
+
 # Acknowledgments
 This codebase borrows from [DiT](https://github.com/facebookresearch/DiT), [PixArt-alpha](https://github.com/PixArt-alpha/PixArt-alpha) and [ADM](https://github.com/openai/guided-diffusion). Thanks to the authors for their wonderful work and codebase!
